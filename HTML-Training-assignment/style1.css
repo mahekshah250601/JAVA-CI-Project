@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url("Noto_Sans/NotoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: NotoSans-Light;
+    src: url("Noto_Sans/NotoSans-Light.ttf");
+}
+
+.container > .image {
+    width: 1344px;
+    height: 983px; 
+    background-image: url("images/CI-Platform-Assets/login.png");
+    background-position: left;
+    background-size: cover;
+    background-position: relative; 
+    display: flex;
+    
+}
+
+.part {
+    top: 0px;
+    left: 1344px;
+    width: 576px;
+    height: 983px;
+    position: absolute;
+    display: flex;
+}
+
+.form {
+    top: 389px;
+    left: 87px;
+    right: 87px;
+    width: 402px;
+    height: 303px;
+    position: relative; 
+    overflow: hidden;
+}
+
+.form p2{
+    top: 0px;
+    left: 114px;
+    height: 30px;
+    text-align: left;
+    color: #414141;
+    font-size: 22px;
+    font-family: 'NotoSans-Regular';
+    position: relative;
+}
+
+.form p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'NotoSans-Light';
+    margin-top: 5px;
+    margin-bottom: 32px;
+}
+
+.form p1{
+    text-align: left;
+    font-size: 16px;
+    font-family: 'NotoSans-Light';
+}
+
+.email{
+    width: 401px;
+    height: 56px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0.97px 0.26px 3px #0000000D;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+.email::placeholder {
+    font-size: 16px;
+    font-family: 'NotoSans-Regular';
+    text-emphasis: none;
+    padding-left: 15px;
+    color:#414141;
+}
+
+#submit {
+    width: 401px;
+    height: 48px;
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    font-size: 17px;
+    font-family: 'NotoSans-Regular';
+    color: #F88634;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: #F88634;
+    color: white;
+}
+
+.login{
+    font-size: 14px;
+    font-family: 'NotoSans-Light';
+    text-decoration: none;
+    left: 184px;
+    margin-top: 17px;
+    position: relative;
+    color: #414141;
+    text-align: center;
+    width: 36px;
+    height: 19px;
+}
+
+.privacy{
+    font-size: 14px;
+    font-family: 'NotoSans-Light';
+    text-decoration: none;
+    left: 158px;
+    top: 196px;
+    position: relative;
+    color: #414141;
+    text-align: left;
+    width: 117px;
+    height: 19px;
+    display: block;
+}

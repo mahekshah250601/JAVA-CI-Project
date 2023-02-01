@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NotoSans-Light;
+    src: url("Noto_Sans/NotoSans-Light.ttf");
+}
+
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url("Noto_Sans/NotoSans-Regular.ttf");
+}
+
+
+.container > .image {
+    width: 1344px;
+    height: 983px; 
+    background-image: url("images/CI-Platform-Assets/login.png");
+    background-position: left;
+    background-size: cover;
+    background-position: relative; 
+    display: flex;
+    
+}
+
+.part {
+    top: 0px;
+    left: 1344px;
+    width: 576px;
+    height: 983px;
+    position: absolute;
+    display: flex;
+}
+
+.form {
+    top: 319px;
+    left: 87px;
+    right: 87px;
+    width: 402px;
+    height: 344px;
+    position: relative; 
+    overflow: hidden;
+   /* margin: 319px 87px 321px 87px;*/
+}
+.form p{
+    font-size: 16px;
+    font-family: 'NotoSans-Light';
+    margin-bottom: 8px;
+    color: #414141;
+}
+.box {
+    height: 56px;
+    width: 401px;
+    margin-bottom: 23px;
+    border: 1px solid #2B64B1;
+    border-radius: 3px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+#submit {
+    width: 401px;
+    height: 48px;
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    font-size: 17px;
+    font-family: 'NotoSans-Regular';
+    color: #F88634;
+    margin-bottom: 17px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #F88634;
+    color: white;
+}
+.form a.password {
+    color: #414141;
+    font-family: 'NotoSans-Light';
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    left: 137px;
+    position: relative;
+}
+
+.account {
+    margin-left: 68px;
+    margin-right: 68px;
+    margin-top: 16px;
+    width: 266px;
+    height: 19px;
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 0px;
+    display: flex;
+}
+
+.account p{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414141;
+    font-family: 'NotoSans-Light';
+    font-size: 14px;
+    display: inline-block;
+}
+
+.account a{
+    color: #2B64B1;
+    font-family: 'NotoSans-Light';
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+}
+.form a.privacy{
+    top: 227px;
+    left: 158px;
+    width: 113px;
+    height: 19px;
+    text-align: center;
+    color: #414141;
+    font-size: 14px;
+    font-family: 'NotoSans-Light';
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    /*margin: 889.5px 245px 74.5px 218px;*/
+}
+

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url("Noto_Sans/NotoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: NotoSans-Light;
+    src: url("Noto_Sans/NotoSans-Light.ttf");
+}
+
+.container > .image {
+    width: 1344px;
+    height: 983px; 
+    background-image: url("images/CI-Platform-Assets/login.png");
+    background-position: left;
+    background-size: cover;
+    background-position: relative; 
+    display: flex;
+    
+}
+
+.part{
+    top: 0px;
+    left: 1344px;
+    width: 576px;
+    height: 983px;
+    position: absolute;
+    display: flex;
+}
+
+.form{
+    top: 100px;
+    left: 78px;
+    width: 417px;
+    height: 744px;
+    right: 81px;
+    position: relative;
+}
+
+.form p1{
+    font-size: 16px;
+    font-family: 'NotoSans-Light';
+    color: #414141;
+}
+
+.box{
+    height: 56px;
+    width: 401px;
+    margin-bottom: 23px;
+    border: 1px solid #2B64B1;
+    border-radius: 3px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-top: 8px;
+}
+
+#submit {
+    width: 401px;
+    height: 48px;
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    font-size: 17px;
+    font-family: 'NotoSans-Regular';
+    color: #F88634;
+    margin-bottom: 17px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #F88634;
+    color: white;
+}
+
+.lostPassword{
+    color:#414141;
+    font-family: 'NotoSans-Light';
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    left: 137px;
+    position: relative;
+}
+
+.login{
+    width: 191px;
+    height: 19px;
+    margin-top: 17px;
+    left: 121px;
+    display: flex;
+    position: relative;
+    margin-bottom: 62px;
+}
+
+.login p{
+    color: #414141;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'NotoSans-Light';
+    position: relative;
+}
+
+.login a{
+    color: #2B64B1;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'NotoSans-Light';
+    position: relative;
+}
+
+.privacy{
+    width: 100px;
+    height: 15px;
+    left: 169px;
+    position: relative;
+    text-decoration: none;
+    color: #414141;
+    font-size: 14px;
+    display: block;
+    font-family: 'NotoSans-Light';
+}
